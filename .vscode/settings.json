@@ -1,0 +1,19 @@
+{
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true,
+    "**": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "python.formatting.provider": "yapf",
+  "[python]": {
+    "editor.defaultFormatter": null
+  },
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, AllowShortFunctionsOnASingleLine: None, IndentWidth: 2}"
+}
